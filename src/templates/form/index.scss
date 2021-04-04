@@ -1,0 +1,102 @@
+.form{
+    padding-top: 316px;
+    padding-bottom: 94px;
+    background-image: url('../img/form-fon.png');
+    background-repeat: no-repeat;
+    &__title{
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 65px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+    }
+    &__descr{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__content{
+        margin-left: 49px;
+        max-width: 555px;
+    }
+    &__btn{
+        width: 100% !important;
+        cursor: pointer;
+    }
+    &__wrap{
+        margin-top: 28px;
+        max-width: 407px;
+        &>div{
+            margin-bottom: 16px;
+        }
+    }
+}
+@media(max-width:1400px){
+    .form{
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media(max-width:1010px){
+    .form{
+        padding-top: 250px;
+        padding-bottom: 40px;
+
+        &__title {
+            font-size: 45px;
+            line-height: 45px;
+        }
+        &__descr {
+            font-size: 21px;
+            line-height: 21px;
+            max-width: 419px;
+        }
+    }
+}
+@media(max-width:800px){
+    .form{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: -80px !important;
+        background-image: url(../img/form-bg-mpb.png);
+        &__content {
+            max-width: 380px;
+        }
+    }
+}
+@media(max-width:550px){
+    .form{
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0;
+            width: 100%;
+            max-width: initial;
+        }
+    }
+}
+@media(max-width: 470px){
+    .form{
+        padding-bottom: 83px;
+        &__title {
+            font-size: 42px;
+            line-height: 42px;
+            margin-top: 21px;
+        }
+        &__descr {
+            font-size: 28px;
+            line-height: 30px;
+            max-width: none;
+            margin-top: 8px;
+        }
+        &__wrap {
+            margin-top: 20px;
+            max-width: none;
+        }
+    }
+}

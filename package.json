@@ -1,0 +1,42 @@
+{
+  "name": "webui-starter-kit",
+  "version": "1.0.0",
+  "description": "<h1>WEBUI starter kit</h1> <h2>Do front& fast&simple</h2>",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "jquery-validation": "^1.19.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tinypng-compress": "^1.2.5",
+    "gulp-ttf2woff2": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "gulp.spritesmith": "^6.11.0",
+    "gulp.spritesmith.3x": "^1.0.9",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "merge-stream": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/videmann/webui-starter-kit.git"
+  },
+  "author": "wserxio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/videmann/webui-starter-kit/issues"
+  },
+  "homepage": "https://github.com/videmann/webui-starter-kit#readme"
+}

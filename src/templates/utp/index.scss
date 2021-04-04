@@ -1,0 +1,112 @@
+.utp{
+    padding: 38px 0;
+    &__wrap{
+        margin-top: 43px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item{
+        margin-bottom: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 32px #C8CFE1;
+        border-radius: 20px;
+        max-width: 358px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 38px 31px;
+        &:not(:nth-child(3n)){
+            margin-right: 30px;
+        }
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #171E30;
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+    &__descr{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #3B4A60;
+    }
+    &__btn{
+        width: 100% !important;
+        margin-top: 27px;
+        height: 58px;
+        margin-bottom: 13px;
+    }
+    &__link{
+        font-size: 18px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #3B4A60;
+
+        & svg, & img{
+            margin-left: 10px;
+        }
+
+        &:hover{
+            color: #00B4FF;
+            & svg path{
+                stroke: #00B4FF;
+            }
+        }
+    }
+    &__wrap-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__wrap-btn {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
+@media(max-width:1163px){
+    .utp__item{
+        &:not(:nth-child(3n)){
+            margin-right: 0px;
+        }
+        &:not(:nth-child(2n)){
+            margin-right: 30px;
+        }
+    }
+}
+@media(max-width: 775px){
+   .section-title{
+        font-size: 36px;
+        line-height: 42px;
+   }
+   .utp__item {
+        margin: 0 10px 30px 10px !important;
+        padding: 34px 21px 44px 21px;
+        box-shadow: 0px 0px 32px #C8CFE1;
+    }
+    .utp__wrap{
+        margin-top: 25px;
+    }
+    .utp {
+        padding: 8px 0;
+    }
+    .utp__title{
+        margin-top: 18px;
+        margin-bottom: 4px;
+    }
+    .utp__btn {
+        margin-top: 20px;
+        margin-bottom: 22px;
+    }
+}
